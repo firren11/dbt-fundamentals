@@ -12,7 +12,7 @@ models:
   - name: stg_orders
     columns:
       - name: order_id
-      tests:
+        tests:
           - unique
           - not_null
       - name: status
